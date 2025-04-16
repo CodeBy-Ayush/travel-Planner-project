@@ -13,7 +13,7 @@ if (!$apiKey && file_exists(__DIR__ . '/../.env')) {
 
 // !!! TEMPORARY HARDCODING FOR DEBUGGING ONLY !!!
 // !!! REMEMBER TO REMOVE THIS AFTER TESTING !!!
-$apiKey = 'AIzaSyBk1KdTF8kiM3osOPMM6lHhD3K8O392_ds';
+$apiKey = 'yourapikey';
 
 // Keep the check, but it should always pass now if the key above is correct
 if (empty($apiKey)) {
