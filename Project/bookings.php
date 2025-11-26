@@ -13,7 +13,7 @@ if (!isset($_SESSION["user_id"])) {
     exit();
 }
 
-// --- Database Connection Details ( IMPORTANT: Update with your credentials! ) ---
+// --- Database Connection Details ( IMPORTANT: Update with your credential! ) ---
 $servername = "localhost"; // Usually localhost
 $username = "root";        // Your database username
 $password = "";            // Your database password
@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
             if ($travelers === false || $travelers < 1) {
-                $booking_error = "Invalid number of travelers. Please enter a positive number.";
+                $booking_error = "Invalid numbers of travelers. Please enter a positive number.";
             } elseif (empty($travel_dates_raw)) {
                  $booking_error = "Please select valid travel dates.";
             } else {
@@ -748,4 +748,5 @@ $conn_get->close(); // Close the GET connection
     </script>
 
 </body>
+
 </html>
