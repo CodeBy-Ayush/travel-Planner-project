@@ -321,7 +321,7 @@ $past_bookings = $past_bookings ?? [];
                             </h1>
                              <!-- Display username safely -->
                              <p class="text-xl text-indigo-600 dark:text-indigo-400 font-medium"><?php echo isset($_SESSION['username']) ? htmlspecialchars($_SESSION['username']) : 'Traveler'; ?>!</p>
-                             <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Ready to plan your next adventure?</p>
+                             <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Ready to plans your next adventure?</p>
                       </div>
                  </div>
                  <div class="flex gap-3 mt-4 sm:mt-0">
@@ -440,7 +440,7 @@ $past_bookings = $past_bookings ?? [];
                       <div class="p-4 grid grid-cols-2 gap-3">
                            <a href="Plannar.php" class="flex flex-col items-center justify-center text-center p-3 bg-indigo-50 dark:bg-indigo-900 hover:bg-indigo-100 dark:hover:bg-indigo-800 rounded-lg transition-colors">
                                <i class="fas fa-route text-2xl text-indigo-600 dark:text-indigo-400 mb-1"></i>
-                               <span class="text-xs font-medium text-indigo-800 dark:text-indigo-200">AI Planner</span>
+                               <span class="text-xs font-medium text-indigo-800 dark:text-indigo-200">AI Planners</span>
                            </a>
                            <a href="explore.php" class="flex flex-col items-center justify-center text-center p-3 bg-green-50 dark:bg-green-900 hover:bg-green-100 dark:hover:bg-green-800 rounded-lg transition-colors">
                                 <i class="fas fa-map-signs text-2xl text-green-600 dark:text-green-400 mb-1"></i>
@@ -683,4 +683,5 @@ $past_bookings = $past_bookings ?? [];
     });
     </script>
 </body>
+
 </html>
