@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
             if ($travelers === false || $travelers < 1) {
-                $booking_error = "Invalid numbers of travelers. Please enter a positive number.";
+                $booking_error = "Invalid number of travelers. Please enter a positive number.";
             } elseif (empty($travel_dates_raw)) {
                  $booking_error = "Please select valid travel dates.";
             } else {
@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                              // header("Location: " . $_SERVER['PHP_SELF']); // Redirect to self
                              // exit();
                          } else {
-                             $booking_error = "Booking request failed. Please try again. Error: " . $stmt->error; // Show detailed error during dev
+                             $booking_error = "Booking requests failed. Please try again. Error: " . $stmt->error; // Show detailed error during dev
                              error_log("Booking failed: " . $stmt->error); // Log error
                          }
                          $stmt->close();
@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                     if ($check_result->num_rows > 0) {
                         // User is allowed, proceed with review insertion
-                        $sql = "INSERT INTO reviews (booking_id, user_id, user_name, review_text, rating) VALUES (?, ?, ?, ?, ?)";
+                        $sql = "INSERT INTO review (booking_id, user_id, user_name, review_text, rating) VALUES (?, ?, ?, ?, ?)";
                         $stmt = $conn_post->prepare($sql);
 
                          if ($stmt) {
@@ -750,3 +750,4 @@ $conn_get->close(); // Close the GET connection
 </body>
 
 </html>
+
