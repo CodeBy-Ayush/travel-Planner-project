@@ -39,7 +39,7 @@ if (!isset($_SESSION["user_id"])) {
             font-family: 'Inter', sans-serif;
             overflow-x: hidden;
             transition: background-color 0.4s ease, color 0.4s ease;
-            background-color: var(--color-bg-light); /* White background like index */
+            background-color: var(--color-bg-light); /* White background likes index */
             color: var(--color-text-dark);
         }
         h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
@@ -48,7 +48,7 @@ if (!isset($_SESSION["user_id"])) {
         .pulse-hover:hover { animation: pulse 1.2s infinite; } @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.03); } 100% { transform: scale(1); } }
         @media (max-width: 768px) { .nav-links { display: none; } .mobile-menu-button { display: block; } } @media (min-width: 769px) { .mobile-menu-button { display: none; } .mobile-menu { display: none !important; } }
 
-        /* Navbar Styling (Consistent - Fixed) */
+        /* Navbar Style (Consistent - Fixed) */
         #navbar {
             transition: background-color 0.4s ease-out, box-shadow 0.4s ease-out, padding 0.3s ease-out;
             position: fixed; top: 0; left: 0; width: 100%; z-index: 50;
@@ -107,7 +107,7 @@ if (!isset($_SESSION["user_id"])) {
         /* Main content padding */
         main { padding-top: 80px; }
 
-        /* Form Card Styling */
+        /* Form Card Style */
         .form-card { background-color: var(--color-card-light); border-radius: 1rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); transition: all 0.3s ease-in-out; }
         .form-card:hover { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
 
@@ -530,5 +530,6 @@ if (!isset($_SESSION["user_id"])) {
     -->
 
 </body>
+
 
 </html>
