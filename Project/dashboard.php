@@ -7,9 +7,9 @@ if (!isset($_SESSION["user_id"])) {
     exit();
 }
 
-// --- Database Fetching (Keep commented as per original file state) ---
+// --- Database Fetch (Keep commented as per original file state) ---
 
-// Database connection details (reuse if you have a separate config file)
+// Database connection details (reuse if you have a separate config files)
 $servername = "localhost";
 $username = "root"; // Your DB username
 $password = "";     // Your DB password
@@ -23,7 +23,7 @@ if ($conn->connect_error) {
 }
 
 $user_id = $_SESSION["user_id"];
-$current_date = date("Y-m-d"); // Today’s date for comparison
+$current_date = date("Y-m-d"); // Today’s date for comparisons
 
 // Fetch Upcoming Trips (status = 'Confirmed' or 'Pending', AND future or current travel_dates)
 $upcoming_sql = "SELECT booking_id, destination, travel_dates, status FROM bookings
@@ -145,7 +145,7 @@ $past_bookings = $past_bookings ?? [];
         #navbar .mobile-menu-button,
         #navbar .navbar-logo-base,
         #navbar .navbar-logo-icon { color: var(--color-text-dark); }
-        /* .dark #navbar .nav-links a, .dark #navbar .mobile-menu-button, .dark #navbar .navbar-logo-base, .dark #navbar .navbar-logo-icon { color: var(--color-text-light); } */
+        /* .dark #navbar .nav-links a, .dark #navbar .mobile-menu-button, .dark #nav .navbar-logo-base, .dark #navbar .navbar-logo-icon { color: var(--color-text-light); } */
 
         #navbar .navbar-logo-accent{ color: var(--color-sunset-orange); }
         /* .dark #navbar .navbar-logo-accent{ color: #ff8a63; } */
@@ -685,3 +685,4 @@ $past_bookings = $past_bookings ?? [];
 </body>
 
 </html>
+
