@@ -6,12 +6,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = mysqli_real_escape_string($conn, $_POST["email"]);
     $password = $_POST["password"]; // Don't escape this, password_verify() needs raw input
 
-    // ✅ Check if email exists
+    // ✅ Check if email exist
     $sql = "SELECT * FROM users WHERE email = '$email'";
     $result = mysqli_query($conn, $sql);
 
     if (!$result) {
-        die("Query Failed: " . mysqli_error($conn)); // ✅ Debug query errors
+        die("Query Failed: " . mysqli_error($conn)); // ✅ Debug query error
     }
 
     if (mysqli_num_rows($result) > 0) {
@@ -232,5 +232,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        
     </script>
 </body>
+
 
 </html>
