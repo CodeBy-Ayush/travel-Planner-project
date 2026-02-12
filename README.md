@@ -5,7 +5,7 @@ A smart travel booking web app with AI-powered trip planning, user reviews, news
 
 A smart travel booking web applications feature AI-powered trip planning, user reviews, newsletter subscriptions, and a modern UI. Builts using PHP, MySQL, Tailwind CSS, and JavaScript to provide a seamless Indian travel experience.
 
----
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🌟 Features
 
