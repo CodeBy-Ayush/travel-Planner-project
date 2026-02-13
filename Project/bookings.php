@@ -1,6 +1,5 @@
 <?php
-session_start(); // Start session MUST be first
-
+session_start(); 
 // --- Error Reporting (for development only!) ---
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -750,4 +749,5 @@ $conn_get->close(); // Close the GET connection
 </body>
 
 </html>
+
 
