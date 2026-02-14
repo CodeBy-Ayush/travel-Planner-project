@@ -1,5 +1,4 @@
 <?php
-// Database credentials
 $host = "localhost";
 $username = "root";
 $password = "";
@@ -39,3 +38,4 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 ?>
+
