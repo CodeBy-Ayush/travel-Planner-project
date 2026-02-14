@@ -1,5 +1,5 @@
 <?php
-session_start(); // Ensure session is started
+session_start(); 
 ?>
 <!DOCTYPE html>
 <html lang="en" class="">
@@ -1022,5 +1022,6 @@ session_start(); // Ensure session is started
     </script>
 
 </body>
+
 
 </html>
