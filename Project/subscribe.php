@@ -12,7 +12,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Get email from POST request and sanitize
 $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
 // Validate email
@@ -38,4 +37,5 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 ?>
+
 
