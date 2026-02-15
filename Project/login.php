@@ -6,7 +6,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = mysqli_real_escape_string($conn, $_POST["email"]);
     $password = $_POST["password"]; // Don't escape this, password_verify() needs raw input
 
-    // ✅ Check if email exist
     $sql = "SELECT * FROM users WHERE email = '$email'";
     $result = mysqli_query($conn, $sql);
 
@@ -235,3 +234,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 </html>
+
