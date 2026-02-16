@@ -3,12 +3,12 @@ session_start();
 // Note: The reference code redirects if not logged in on the main page.
 // Your original code didn't. I'll keep it like your original for now.
 // If you want redirection, uncomment the following block:
-/*
+
 if (!isset($_SESSION['user_id'])) {
     header('Location: login.php');
     exit;
 }
-*/
+
 ?>
 <!DOCTYPE html>
 <!-- JS will toggle 'dark' class -->
@@ -974,4 +974,5 @@ if (!isset($_SESSION['user_id'])) {
     </script>
 
 </body>
+
 </html>
