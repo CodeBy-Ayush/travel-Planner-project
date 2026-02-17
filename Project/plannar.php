@@ -4,10 +4,10 @@ session_start();
 // --- Optional: Login Check -----
 // Uncomment this block if users MUST be logged in to use the planner
 // /*
-// if (!isset($_SESSION["user_id"])) {
-//     header("Location: login.php");
-//     exit();
-// }
+if (!isset($_SESSION["user_id"])) {
+    header("Location: login.php");
+    exit();
+}
 // */
 ?>
 <!DOCTYPE html>
@@ -533,5 +533,6 @@ session_start();
 
 
 </html>
+
 
 
