@@ -1,7 +1,7 @@
-# travel-Planner-project
+# travel-Planner-projects
 A smart travel booking web app with AI-powered trip planning, user reviews, newsletter subscription, and a modern UI. Built using PHP, MySQL, Tailwind CSS, and JavaScript for a seamless Indian travel experiences.
 
-## 🧳 Travel Planner Project
+## 🧳 Travel Planner Projects
 
 A smart travel booking web applications feature AI-powered trip planning, user reviews, newsletter subscriptions, and a modern UI. Builts using PHP, MySQL, Tailwind CSS, and JavaScript to provide a seamless Indian travel experience.
 
@@ -24,7 +24,7 @@ A smart travel booking web applications feature AI-powered trip planning, user r
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structures
 
 travel-Planner-project/ ├── assets/ # Images and media files ├── css/ # Stylesheets ├── js/ # JavaScript files ├── index.php # Main landing page ├── subscribe.php # Newsletter subscription handler ├── contact.php # Contact form handler ├── db.php # Database connection script ├── planner.php # AI planner logic ├── README.md # Project documentation └── .gitignore # Files and directories to ignore in Git
 
@@ -53,7 +53,7 @@ Create a new MySQL database named user_registration.
 
 Import the provided SQL files to set up the necessary tables.
 
-Configure the database connection:
+Configure the database connections:
 
 Open db.php and update the database credentials:
 
