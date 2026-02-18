@@ -5,14 +5,11 @@ const submitBtn = document.getElementById('submit-btn');
 const errorMessageDiv = document.getElementById('error-message');
 
 form.addEventListener('submit', async(event) => {
-    event.preventDefault(); // Prevent default form submission
-
-    // Clear previous results and errors
+    event.preventDefault(); 
     resultsDiv.innerHTML = '';
     errorMessageDiv.classList.add('hidden');
     errorMessageDiv.textContent = '';
 
-    // Show loading indicator and disable button
     loadingDiv.style.display = 'block';
     submitBtn.disabled = true;
     submitBtn.classList.add('opacity-50', 'cursor-not-allowed');
@@ -104,4 +101,5 @@ function applyCardStyles() {
             card.classList.remove('day-card-initial', 'opacity-0', 'scale-95');
         });
     }, 50); // Small delay (50ms)
+
 }
