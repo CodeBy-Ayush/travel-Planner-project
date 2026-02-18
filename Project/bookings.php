@@ -6,7 +6,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 // -------------------------------------------------
 
-// --- Login Check ---
+// --- Login Check ------
 if (!isset($_SESSION["user_id"])) {
     header("Location: login.php"); // Redirect to your login page
     exit();
@@ -749,5 +749,6 @@ $conn_get->close(); // Close the GET connection
 </body>
 
 </html>
+
 
 
