@@ -4,17 +4,17 @@ $username = "root";
 $password = "";
 $database = "travel";
 
-// Create database connection
+// Create database connections
 $conn = new mysqli($host, $username, $password, $database);
 
-// Check connection
+// Check connections
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
 $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
-// Validate email
+// Validate emails
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo "<script>alert('Invalid email format.'); window.history.back();</script>";
     exit;
@@ -37,5 +37,6 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 ?>
+
 
 
