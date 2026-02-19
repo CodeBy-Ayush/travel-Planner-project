@@ -1,7 +1,7 @@
 <?php
 
 
-// --- Configuration ---
+// --- Configuration -----
 
 // Comment out ALL the previous API key loading logic for now:
 // $apiKey = getenv('GEMINI_API_KEY');
@@ -311,3 +311,4 @@ echo json_encode(['itinerary_html' => $htmlOutput]);
 exit;
 
 ?>
+
