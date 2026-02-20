@@ -1,7 +1,6 @@
 <?php
 session_start();
 // Note: The reference code redirects if not logged in on the main page.
-// Your original code didn't. I'll keep it like your original for now.
 // If you want redirection, uncomment the following block:
 
 if (!isset($_SESSION['user_id'])) {
@@ -976,3 +975,4 @@ if (!isset($_SESSION['user_id'])) {
 </body>
 
 </html>
+
