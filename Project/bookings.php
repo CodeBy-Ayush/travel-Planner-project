@@ -6,13 +6,12 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 // -------------------------------------------------
 
-// --- Login Check ------
+// --- Login Check -------------------------------
 if (!isset($_SESSION["user_id"])) {
     header("Location: login.php"); // Redirect to your login page
     exit();
 }
 
-// --- Database Connection Details ( IMPORTANT: Update with your credential! ) ---
 $servername = "localhost"; // Usually localhost
 $username = "root";        // Your database username
 $password = "";            // Your database password
@@ -749,6 +748,7 @@ $conn_get->close(); // Close the GET connection
 </body>
 
 </html>
+
 
 
 
