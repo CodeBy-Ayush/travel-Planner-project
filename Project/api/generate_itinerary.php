@@ -1,14 +1,14 @@
 <?php
 
 
-// --- Configuration -----
+// --- Configuration -------
 
 // Comment out ALL the previous API key loading logic for now:
 // $apiKey = getenv('GEMINI_API_KEY');
 /*
-if (!$apiKey && file_exists(__DIR__ . '/../.env')) {
-    // ... all the phpdotenv loading code ...
-}
+// if (!$apiKey && file_exists(__DIR__ . '/../.env')) {
+//     // ... all the phpdotenv loading code ...
+// }
 */
 
 // !!! TEMPORARY HARDCODING FOR DEBUGGING ONLY !!!
@@ -49,7 +49,7 @@ if (empty($duration) || $duration <= 0) $errors[] = 'Valid number of days is req
 if (empty($budget)) $errors[] = 'Budget level is required.';
 if (empty($season)) $errors[] = 'Season is required.';
 // Add more specific validation if needed (e.g., check budget/season against allowed values)
-
+//--------------------------------------------------------------------------------------------
 if (!empty($errors)) {
     http_response_code(400); // Bad Request
     echo json_encode(['error' => implode(' ', $errors)]);
@@ -311,4 +311,5 @@ echo json_encode(['itinerary_html' => $htmlOutput]);
 exit;
 
 ?>
+
 
