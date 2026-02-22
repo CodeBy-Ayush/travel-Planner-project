@@ -1,7 +1,7 @@
-# travel-Planner-projects
+# travel-Planner-project
 A smart travel booking web app with AI-powered trip planning, user reviews, newsletter subscription, and a modern UI. Built using PHP, MySQL, Tailwind CSS, and JavaScript for a seamless Indian travel experiences.
 
-## 🧳 Travel Planner Projects
+## 🧳 Travel Planner Project
 
 A smart travel booking web applications feature AI-powered trip planning, user reviews, newsletter subscriptions, and a modern UI. Builts using PHP, MySQL, Tailwind CSS, and JavaScript to provide a seamless Indian travel experience.
 
