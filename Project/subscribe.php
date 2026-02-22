@@ -4,7 +4,7 @@ $username = "root";
 $password = "";
 $database = "travel";
 
-// Create database connections
+// Create database connections----------------------------
 $conn = new mysqli($host, $username, $password, $database);
 
 // Check connections
@@ -37,6 +37,7 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 ?>
+
 
 
 
