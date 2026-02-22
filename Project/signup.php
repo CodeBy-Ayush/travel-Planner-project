@@ -1,5 +1,5 @@
 <?php
-include 'db.php';  // Include database connection 
+include 'db.php';  // Include database connections
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Get form data
@@ -8,11 +8,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = mysqli_real_escape_string($conn, $_POST['password']);
     $confirmPassword = mysqli_real_escape_string($conn, $_POST['confirmPassword']);
 
-    // Check if passwords match
+    // Check if passwords matches
     if ($password !== $confirmPassword) {
         echo "<script>alert('Passwords do not match. Please try again.');</script>";
     } else {
-        // ✅ Hash the password for security
+        // ✅ Hash the password for security purpose
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
         // ✅ Check if email already exists
@@ -189,4 +189,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 </body>
 </html>
+
 
