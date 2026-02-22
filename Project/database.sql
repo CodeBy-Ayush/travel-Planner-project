@@ -1,6 +1,6 @@
 USE travel;
 
--- Table to store user details
+-- Table to stored for user details
 CREATE TABLE IF NOT EXISTS `users` (
   `id` INT AUTO_INCREMENT PRIMARY KEY,
   `name` VARCHAR(100) NOT NULL,
@@ -45,3 +45,4 @@ CREATE TABLE IF NOT EXISTS `newsletter_subscribers` (
   `subscribed_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
