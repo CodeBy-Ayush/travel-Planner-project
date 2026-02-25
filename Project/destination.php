@@ -3,7 +3,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en" class="">
-<!-- Add 'dark' class here dynamically for dark mode -->
+<!-- Add 'dark' class here dynamically for dark mode ---->
 
 <head>
     <meta charset="UTF-8">
@@ -49,8 +49,7 @@ session_start();
 
         body {
             font-family: 'Inter', sans-serif;
-            /* Match index.html */
-            background-color: var(--color-bg-light); /* MATCH INDEX.PHP (White Background) */
+            background-color: var(--color-bg-light); 
             color: var(--color-text-dark);
             transition: background-color 0.4s ease, color 0.4s ease;
         }
@@ -1025,3 +1024,4 @@ session_start();
 
 
 </html>
+
