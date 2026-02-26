@@ -4,10 +4,9 @@ $username = "root";
 $password = "";
 $database = "travel";
 
-// Create database connections----------------------------
 $conn = new mysqli($host, $username, $password, $database);
 
-// Check connections
+// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
@@ -37,6 +36,7 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 ?>
+
 
 
 
