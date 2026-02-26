@@ -14,7 +14,7 @@ A smart travel booking web applications feature AI-powered trip planning, user r
 - **Newsletter Subscription**: Stay updated with the latest travel deals and tips.
 - **Responsive Design**: Enjoy a consistent experience across all device.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🛠️ Technologies Used
 
@@ -38,7 +38,7 @@ travel-Planner-project/ ├── assets/ # Images and media files ├── css
 - MySQL database setup
 - Web server (e.g., Apache)
 
-### Installation
+### Installations
 
 1. **Clone the repository**:
 
