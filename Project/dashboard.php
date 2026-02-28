@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-// --- Login Check (Keep this active for a dashboard) ---
+// --- Login Check (Keep this active for a dashboard) -----
 if (!isset($_SESSION["user_id"])) {
     header("Location: login.php");
     exit();
@@ -684,5 +684,6 @@ $past_bookings = $past_bookings ?? [];
 </body>
 
 </html>
+
 
 
