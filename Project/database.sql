@@ -46,3 +46,4 @@ CREATE TABLE IF NOT EXISTS `newsletter_subscribers` (
 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+
