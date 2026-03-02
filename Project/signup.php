@@ -1,5 +1,5 @@
 <?php
-include 'db.php';  // Include database connections
+include 'db.php';  // Included database connections
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Get form data
@@ -189,5 +189,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 </body>
 </html>
+
 
 
