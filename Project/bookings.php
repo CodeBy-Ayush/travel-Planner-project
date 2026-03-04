@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-// --- Error Reporting (for development only!) ---
+// --- Error Reporting (for development only!) -----
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -748,6 +748,7 @@ $conn_get->close(); // Close the GET connection
 </body>
 
 </html>
+
 
 
 
