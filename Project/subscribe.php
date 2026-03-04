@@ -6,20 +6,20 @@ $database = "travel";
 
 $conn = new mysqli($host, $username, $password, $database);
 
-// Check connection
+// Check connections
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
 $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
-// Validate emails
+// Validate email
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo "<script>alert('Invalid email format.'); window.history.back();</script>";
     exit;
 }
 
-// Insert email into database
+// Insert email into database Connection
 $stmt = $conn->prepare("INSERT INTO newsletter_subscribers (email) VALUES (?)");
 $stmt->bind_param("s", $email);
 
@@ -36,6 +36,7 @@ if ($stmt->execute()) {
 $stmt->close();
 $conn->close();
 ?>
+
 
 
 
