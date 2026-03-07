@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Note: The reference code redirects if not logged in on the main page.
-// If you want redirection, uncomment the following block:
+// If you want redirection, uncomment the following block: --------
 
 if (!isset($_SESSION['user_id'])) {
     header('Location: login.php');
@@ -975,4 +975,5 @@ if (!isset($_SESSION['user_id'])) {
 </body>
 
 </html>
+
 
