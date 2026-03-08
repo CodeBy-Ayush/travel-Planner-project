@@ -1,15 +1,15 @@
 <?php
 
 
-// --- Configuration -------
+// --- Configuration -----------------
 
 // Comment out ALL the previous API key loading logic for now:
 // $apiKey = getenv('GEMINI_API_KEY');
-/*
-// if (!$apiKey && file_exists(__DIR__ . '/../.env')) {
-//     // ... all the phpdotenv loading code ...
-// }
-*/
+
+if (!$apiKey && file_exists(__DIR__ . '/../.env')) {
+    // ... all the phpdotenv loading code ...
+}
+
 
 // !!! TEMPORARY HARDCODING FOR DEBUGGING ONLY !!!
 // !!! REMEMBER TO REMOVE THIS AFTER TESTING !!!
@@ -311,5 +311,6 @@ echo json_encode(['itinerary_html' => $htmlOutput]);
 exit;
 
 ?>
+
 
 
