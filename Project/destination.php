@@ -3,7 +3,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en" class="">
-<!-- Add 'dark' class here dynamically for dark mode ---->
+<!-- Add 'dark-mode' class here dynamically for dark mode ---->
 
 <head>
     <meta charset="UTF-8">
@@ -21,7 +21,7 @@ session_start();
     <!-- Google Fonts (from index.html) -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap">
 
-    <!-- Custom Styles -->
+    <!-- Custom Styles ------------------------->
     <style>
         /* Copied CSS Variables from index.html */
          :root {
@@ -55,10 +55,10 @@ session_start();
         }
 
         /* Dark Mode Body */
-        /* .dark body {
+        .dark body {
             background-color: var(--color-bg-dark);
             color: var(--color-text-light);
-        } */
+        }
 
         h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; } /* Match index.html */
 
@@ -1024,4 +1024,5 @@ session_start();
 
 
 </html>
+
 
