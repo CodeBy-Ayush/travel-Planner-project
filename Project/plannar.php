@@ -1,7 +1,7 @@
 <?php
 session_start(); 
 
-// --- Optional: Login Check -----
+// --- Optional: Login Check -----------
 // Uncomment this block if users MUST be logged in to use the planner
 // /*
 if (!isset($_SESSION["user_id"])) {
@@ -533,6 +533,7 @@ if (!isset($_SESSION["user_id"])) {
 
 
 </html>
+
 
 
 
