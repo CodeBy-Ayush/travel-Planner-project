@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = mysqli_query($conn, $sql);
 
     if (!$result) {
-        die("Query Failed: " . mysqli_error($conn)); // ✅ Debug query error
+        die("Query Failed: " . mysqli_error($conn)); // ✅ Debug query error-------------
     }
 
     if (mysqli_num_rows($result) > 0) {
@@ -234,4 +234,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 </html>
+
 
