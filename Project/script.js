@@ -17,7 +17,6 @@ form.addEventListener('submit', async(event) => {
     // Get form data
     const formData = new FormData(form);
 
-    // No need to manually add interests here, PHP handles the array
 
     try {
         // CRITICAL: Ensure this relative path 'api/generate_itinerary.php'
