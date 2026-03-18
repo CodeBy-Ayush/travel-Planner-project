@@ -1,4 +1,4 @@
-## travel-Planner-project
+# travel-Planner-project
 A smart travel booking web app with AI-powered trip planning, user reviews, newsletter subscription, and a modern UI. Built using PHP, MySQL, Tailwind CSS, and JavaScript for a seamless Indian travel experiences.
 
 ## 🧳 Travel Planner Project
@@ -73,7 +73,7 @@ For any queries or support, please reach out to:
 
 Email: kumarayush4322@gmail.com
 
-Crafted with ❤️ by Ayush 
+Crafted with ❤️ by Ayush Kumar
 
 ---
 
