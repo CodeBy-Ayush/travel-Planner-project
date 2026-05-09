@@ -7,7 +7,7 @@ A smart travel booking web applications feature AI-powered trip planning, user r
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 🌟 Features
+# 🌟 Features
 
 - **AI-Powered Trip Planning**: Get personalized travel suggestions based on your preference.
 - **User Reviews**: Share and read reviews to make informed decisions.
