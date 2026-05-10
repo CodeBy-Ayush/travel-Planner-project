@@ -1,5 +1,7 @@
 USE travel;
 
+--database
+
 -- Table to stored for user details
 CREATE TABLE IF NOT EXISTS `users` (
   `id` INT AUTO_INCREMENT PRIMARY KEY,
